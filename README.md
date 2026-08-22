@@ -9,13 +9,11 @@ A Hugo version of the [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-
 
 ---
 
-# Comprofix 
+# Comprofix
 
-This repository contains all merges and changes from my development repository so it can be used as a module for the [comprofix.com](https://comprofix.com) website.
+This is a fork of [geekifan/hugo-theme-chirpy](https://github.com/geekifan/hugo-theme-chirpy).
 
-## Related Repositories
-
-- **Development branch:** [comprofix/hugo-theme-chirpy](https://github.com/comprofix/hugo-theme-chirpy)  
-- **Original fork:** [geekifan/hugo-theme-chirpy/](https://github.com/geekifan/hugo-theme-chirpy/)
+- **`main`** tracks the upstream fork as-is, so it stays easy to pull in upstream fixes.
+- **`comprofix.com`** branches off `main` and carries the customizations used as the Hugo module for the [comprofix.com](https://comprofix.com) website (renamed module path, custom static assets dependency, Renovate config).
 
 

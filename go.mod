@@ -1,4 +1,4 @@
-module github.com/comprofix/comprofix-hugo-theme-chirpy
+module github.com/comprofix/hugo-theme-chirpy
 
 go 1.27.0
 
