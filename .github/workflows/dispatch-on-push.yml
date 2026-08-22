@@ -1,0 +1,17 @@
+name: Notify comprofix.com
+
+on:
+  push:
+    branches: [comprofix.com]
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify comprofix.com
+        run: |
+          curl -sS -f -X POST \
+            -H "Authorization: Bearer ${{ secrets.DISPATCH_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/comprofix/comprofix.com/dispatches \
+            -d '{"event_type":"module-updated","client_payload":{"repo":"hugo-theme-chirpy"}}'
