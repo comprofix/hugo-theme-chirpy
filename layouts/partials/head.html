@@ -67,7 +67,7 @@
   {{ end }}
 
   {{ if or (eq .Type "post") (eq .Type "page") (eq .Kind "home") }}
-    <link rel="stylesheet" href="{{ $data.lazy_polyfill.css | relURL }}">
+    <link rel="stylesheet" href="{{ $data.lazyPolyfill.css | relURL }}">
   {{ end }}
 
   {{ if or (eq .Type "page") (eq .Type "post") }}

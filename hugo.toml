@@ -25,6 +25,10 @@ defaultContentLanguageInSubdir = false
   path = "github.com/comprofix/comprofix-chirpy-static-assets"
 
 [[module.imports.mounts]]
-  source = "."
+  source = "assets/js"
   target = "static/lib"
+
+[[module.imports.mounts]]
+  source = "static/fonts"
+  target = "static/lib/fonts"
 
