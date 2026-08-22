@@ -3,6 +3,7 @@ name: Notify comprofix.com
 on:
   push:
     branches: [comprofix.com]
+  workflow_dispatch: {}
 
 jobs:
   dispatch:
