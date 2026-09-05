@@ -1,6 +1,6 @@
 module github.com/comprofix/hugo-theme-chirpy
 
-go 1.27.0
+go 1.27.1
 
 require (
 	github.com/comprofix/comprofix-chirpy-static-assets v0.0.0-20251219132822-ecf3bf48fd7d // indirect
